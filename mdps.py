@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 
 # converted '\' to '/' path
-loaded_model = pickle.load(open("C:/Users/ASUS/Desktop/ML Projects/DIABETES PREDICTION/trained_model.sav","rb"))
+loaded_model = pickle.load(open("trained_model.sav","rb"))
 
 # func for diabtetes prediction
 def diabetes_prediction(arr):
