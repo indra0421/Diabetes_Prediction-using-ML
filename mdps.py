@@ -2,9 +2,6 @@
 """
 -- Updated on Wed Mar  6 22:20:26 2024
 
-@author: ASUS
-"""
-
 import numpy as np
 import pickle
 import streamlit as st
