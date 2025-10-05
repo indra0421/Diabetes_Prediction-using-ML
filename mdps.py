@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
--- Updated on Wed Mar  6 22:20:26 2024
-
 import numpy as np
 import pickle
 import streamlit as st
