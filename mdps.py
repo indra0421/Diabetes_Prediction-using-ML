@@ -46,11 +46,6 @@ def main():
     st.success(diagonosis)
     
     
-
 if __name__ == '__main__':
     main()
     
-    
-    
-    
-
