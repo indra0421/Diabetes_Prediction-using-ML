@@ -8,7 +8,7 @@ scaler = StandardScaler()
 # converted '\' to '/' path
 loaded_model = pickle.load(open("trained_model.sav","rb"))
 
-# func for diabtetes prediction
+# function for diabtetes prediction
 def diabetes_prediction(arr):
     inp_data_as_nparray = np.asarray(arr)
     reshaped_data = inp_data_as_nparray.reshape(1,-1)
